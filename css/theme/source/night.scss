@@ -20,13 +20,18 @@
 $backgroundColor: #111;
 
 $mainFont: 'Open Sans', sans-serif;
-$linkColor: #e7ad52;
+$linkColor: #fbe200;
 $linkColorHover: lighten( $linkColor, 20% );
 $headingFont: 'Montserrat', Impact, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: -0.03em;
 $headingTextTransform: none;
-$selectionBackgroundColor: #e7ad52;
+$selectionBackgroundColor: #fbe200;
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
 
 // Change text colors against light slide backgrounds
 @include light-bg-text-color(#222);
